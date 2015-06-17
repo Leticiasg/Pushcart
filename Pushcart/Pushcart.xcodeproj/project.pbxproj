@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FA1619A1B304C2400331E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA161991B304C2400331E75 /* AppDelegate.swift */; };
+		6FA1619C1B304C2400331E75 /* BuyingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1619B1B304C2400331E75 /* BuyingViewController.swift */; };
+		6FA1619E1B304C2400331E75 /* VendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA1619D1B304C2400331E75 /* VendingViewController.swift */; };
+		6FA161A11B304C2400331E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA1619F1B304C2400331E75 /* Main.storyboard */; };
+		6FA161A31B304C2400331E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA161A21B304C2400331E75 /* Images.xcassets */; };
+		6FA161A61B304C2400331E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA161A41B304C2400331E75 /* LaunchScreen.xib */; };
+		6FA161B21B304C2400331E75 /* PushcartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA161B11B304C2400331E75 /* PushcartTests.swift */; };
+		6FA161BC1B304D8D00331E75 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA161BB1B304D8D00331E75 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FA161AC1B304C2400331E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA1618C1B304C2400331E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FA161931B304C2400331E75;
+			remoteInfo = Pushcart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FA161941B304C2400331E75 /* Pushcart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pushcart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA161981B304C2400331E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA161991B304C2400331E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6FA1619B1B304C2400331E75 /* BuyingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingViewController.swift; sourceTree = "<group>"; };
+		6FA1619D1B304C2400331E75 /* VendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingViewController.swift; sourceTree = "<group>"; };
+		6FA161A01B304C2400331E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FA161A21B304C2400331E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6FA161A51B304C2400331E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6FA161AB1B304C2400331E75 /* PushcartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushcartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA161B01B304C2400331E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA161B11B304C2400331E75 /* PushcartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushcartTests.swift; sourceTree = "<group>"; };
+		6FA161BB1B304D8D00331E75 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FA161911B304C2400331E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA161BC1B304D8D00331E75 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA161A81B304C2400331E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA1618B1B304C2400331E75 = {
+			isa = PBXGroup;
+			children = (
+				6FA161BB1B304D8D00331E75 /* CoreLocation.framework */,
+				6FA161961B304C2400331E75 /* Pushcart */,
+				6FA161AE1B304C2400331E75 /* PushcartTests */,
+				6FA161951B304C2400331E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FA161951B304C2400331E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA161941B304C2400331E75 /* Pushcart.app */,
+				6FA161AB1B304C2400331E75 /* PushcartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA161961B304C2400331E75 /* Pushcart */ = {
+			isa = PBXGroup;
+			children = (
+				6FA161991B304C2400331E75 /* AppDelegate.swift */,
+				6FA1619B1B304C2400331E75 /* BuyingViewController.swift */,
+				6FA1619D1B304C2400331E75 /* VendingViewController.swift */,
+				6FA1619F1B304C2400331E75 /* Main.storyboard */,
+				6FA161A21B304C2400331E75 /* Images.xcassets */,
+				6FA161A41B304C2400331E75 /* LaunchScreen.xib */,
+				6FA161971B304C2400331E75 /* Supporting Files */,
+			);
+			path = Pushcart;
+			sourceTree = "<group>";
+		};
+		6FA161971B304C2400331E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA161981B304C2400331E75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FA161AE1B304C2400331E75 /* PushcartTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FA161B11B304C2400331E75 /* PushcartTests.swift */,
+				6FA161AF1B304C2400331E75 /* Supporting Files */,
+			);
+			path = PushcartTests;
+			sourceTree = "<group>";
+		};
+		6FA161AF1B304C2400331E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FA161B01B304C2400331E75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FA161931B304C2400331E75 /* Pushcart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA161B51B304C2400331E75 /* Build configuration list for PBXNativeTarget "Pushcart" */;
+			buildPhases = (
+				6FA161901B304C2400331E75 /* Sources */,
+				6FA161911B304C2400331E75 /* Frameworks */,
+				6FA161921B304C2400331E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pushcart;
+			productName = Pushcart;
+			productReference = 6FA161941B304C2400331E75 /* Pushcart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FA161AA1B304C2400331E75 /* PushcartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA161B81B304C2400331E75 /* Build configuration list for PBXNativeTarget "PushcartTests" */;
+			buildPhases = (
+				6FA161A71B304C2400331E75 /* Sources */,
+				6FA161A81B304C2400331E75 /* Frameworks */,
+				6FA161A91B304C2400331E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA161AD1B304C2400331E75 /* PBXTargetDependency */,
+			);
+			name = PushcartTests;
+			productName = PushcartTests;
+			productReference = 6FA161AB1B304C2400331E75 /* PushcartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FA1618C1B304C2400331E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LazyFox;
+				TargetAttributes = {
+					6FA161931B304C2400331E75 = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					6FA161AA1B304C2400331E75 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6FA161931B304C2400331E75;
+					};
+				};
+			};
+			buildConfigurationList = 6FA1618F1B304C2400331E75 /* Build configuration list for PBXProject "Pushcart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FA1618B1B304C2400331E75;
+			productRefGroup = 6FA161951B304C2400331E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FA161931B304C2400331E75 /* Pushcart */,
+				6FA161AA1B304C2400331E75 /* PushcartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FA161921B304C2400331E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA161A11B304C2400331E75 /* Main.storyboard in Resources */,
+				6FA161A61B304C2400331E75 /* LaunchScreen.xib in Resources */,
+				6FA161A31B304C2400331E75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA161A91B304C2400331E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FA161901B304C2400331E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA1619E1B304C2400331E75 /* VendingViewController.swift in Sources */,
+				6FA1619A1B304C2400331E75 /* AppDelegate.swift in Sources */,
+				6FA1619C1B304C2400331E75 /* BuyingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA161A71B304C2400331E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA161B21B304C2400331E75 /* PushcartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FA161AD1B304C2400331E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FA161931B304C2400331E75 /* Pushcart */;
+			targetProxy = 6FA161AC1B304C2400331E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6FA1619F1B304C2400331E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA161A01B304C2400331E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FA161A41B304C2400331E75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FA161A51B304C2400331E75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FA161B31B304C2400331E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FA161B41B304C2400331E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FA161B61B304C2400331E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pushcart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FA161B71B304C2400331E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pushcart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FA161B91B304C2400331E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushcartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushcart.app/Pushcart";
+			};
+			name = Debug;
+		};
+		6FA161BA1B304C2400331E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushcartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushcart.app/Pushcart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FA1618F1B304C2400331E75 /* Build configuration list for PBXProject "Pushcart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA161B31B304C2400331E75 /* Debug */,
+				6FA161B41B304C2400331E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA161B51B304C2400331E75 /* Build configuration list for PBXNativeTarget "Pushcart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA161B61B304C2400331E75 /* Debug */,
+				6FA161B71B304C2400331E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6FA161B81B304C2400331E75 /* Build configuration list for PBXNativeTarget "PushcartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA161B91B304C2400331E75 /* Debug */,
+				6FA161BA1B304C2400331E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FA1618C1B304C2400331E75 /* Project object */;
+}
